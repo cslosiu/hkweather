@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43387F5A157D0F9D0087093B /* DayWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 43387F59157D0F9D0087093B /* DayWeather.m */; };
+		43387F611589003C0087093B /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43387F601589003C0087093B /* NewsViewController.m */; };
+		43387F64158F9F980087093B /* HKOTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 43387F63158F9F980087093B /* HKOTweet.m */; };
+		43387F6615924F590087093B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43387F6515924F590087093B /* QuartzCore.framework */; };
+		43387F691593A6080087093B /* NewsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43387F681593A6080087093B /* NewsWebViewController.m */; };
+		43475E8015BFDE5900F7EA7F /* current.png in Resources */ = {isa = PBXBuildFile; fileRef = 43475E7F15BFDE5900F7EA7F /* current.png */; };
+		43475E8215BFDF4500F7EA7F /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 43475E8115BFDF4500F7EA7F /* news.png */; };
+		43475E8415BFDFD200F7EA7F /* 7days.png in Resources */ = {isa = PBXBuildFile; fileRef = 43475E8315BFDFD200F7EA7F /* 7days.png */; };
+		43475E8715BFEF3600F7EA7F /* app-icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 43475E8515BFEF3600F7EA7F /* app-icon-114.png */; };
+		43475E8815BFEF3600F7EA7F /* app-icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 43475E8615BFEF3600F7EA7F /* app-icon-1024.png */; };
+		43475E8A15BFEFF600F7EA7F /* app-icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 43475E8915BFEFF600F7EA7F /* app-icon-57.png */; };
+		4347E49B156C0E2C00E84863 /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4347E49A156C0E2C00E84863 /* MainTabViewController.m */; };
+		4347E49E156D39B700E84863 /* CurrentStatusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4347E49D156D39B700E84863 /* CurrentStatusVC.m */; };
+		4347E4A1156D39F700E84863 /* SevenDayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4347E4A0156D39F700E84863 /* SevenDayVC.m */; };
+		4347E4A4156D4E0C00E84863 /* CurrentStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4347E4A3156D4E0C00E84863 /* CurrentStatus.m */; };
+		4347E4A7156D525C00E84863 /* WeatherWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = 4347E4A6156D525C00E84863 /* WeatherWarning.m */; };
+		4375FE7A1498ED1200F6F989 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4375FE791498ED1200F6F989 /* UIKit.framework */; };
+		4375FE7C1498ED1200F6F989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4375FE7B1498ED1200F6F989 /* Foundation.framework */; };
+		4375FE7E1498ED1200F6F989 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4375FE7D1498ED1200F6F989 /* CoreGraphics.framework */; };
+		4375FE841498ED1200F6F989 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4375FE821498ED1200F6F989 /* InfoPlist.strings */; };
+		4375FE861498ED1200F6F989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375FE851498ED1200F6F989 /* main.m */; };
+		4375FE8A1498ED1200F6F989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375FE891498ED1200F6F989 /* AppDelegate.m */; };
+		4375FE8D1498ED1200F6F989 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4375FE8B1498ED1200F6F989 /* MainStoryboard.storyboard */; };
+		4375FE9914990FB600F6F989 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375FE9814990FB600F6F989 /* LandscapeViewController.m */; };
+		43C1447C181EBC1C000DFD66 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C1447B181EBC1C000DFD66 /* libGoogleAdMobAds.a */; };
+		43C1447F181EBD4D000DFD66 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C1447E181EBD4D000DFD66 /* StoreKit.framework */; };
+		43C14481181EBD54000DFD66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C14480181EBD54000DFD66 /* AudioToolbox.framework */; };
+		43C14483181EBD5D000DFD66 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C14482181EBD5D000DFD66 /* AdSupport.framework */; };
+		43C14485181EBD6A000DFD66 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C14484181EBD6A000DFD66 /* MessageUI.framework */; };
+		43C14487181EBD75000DFD66 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C14486181EBD75000DFD66 /* SystemConfiguration.framework */; };
+		43C1448C18213F69000DFD66 /* app-icon2-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1448918213F69000DFD66 /* app-icon2-80.png */; };
+		43C1448D18213F69000DFD66 /* app-icon2-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1448A18213F69000DFD66 /* app-icon2-120.png */; };
+		43C1448E18213F69000DFD66 /* app-icon2-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1448B18213F69000DFD66 /* app-icon2-1024.png */; };
+		43C144901821407E000DFD66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1448F1821407E000DFD66 /* Default.png */; };
+		43C1449318214141000DFD66 /* app-icon2-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1449118214141000DFD66 /* app-icon2-57.png */; };
+		43C1449418214141000DFD66 /* app-icon2-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1449218214141000DFD66 /* app-icon2-114.png */; };
+		43C14497182158A2000DFD66 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C14495182158A2000DFD66 /* Default-568h.png */; };
+		43C14498182158A2000DFD66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C14496182158A2000DFD66 /* Default-568h@2x.png */; };
+		43FD398F156AAA980068C93A /* ImageHolderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FD398D156AAA980068C93A /* ImageHolderVC.m */; };
+		43FD3990156AAA980068C93A /* ImageHolderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43FD398E156AAA980068C93A /* ImageHolderVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43387F58157D0F9D0087093B /* DayWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayWeather.h; sourceTree = "<group>"; };
+		43387F59157D0F9D0087093B /* DayWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayWeather.m; sourceTree = "<group>"; };
+		43387F5F1589003C0087093B /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		43387F601589003C0087093B /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		43387F62158F9F980087093B /* HKOTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKOTweet.h; sourceTree = "<group>"; };
+		43387F63158F9F980087093B /* HKOTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKOTweet.m; sourceTree = "<group>"; };
+		43387F6515924F590087093B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		43387F671593A6080087093B /* NewsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsWebViewController.h; sourceTree = "<group>"; };
+		43387F681593A6080087093B /* NewsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsWebViewController.m; sourceTree = "<group>"; };
+		43475E7F15BFDE5900F7EA7F /* current.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = current.png; sourceTree = "<group>"; };
+		43475E8115BFDF4500F7EA7F /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		43475E8315BFDFD200F7EA7F /* 7days.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7days.png; sourceTree = "<group>"; };
+		43475E8515BFEF3600F7EA7F /* app-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-114.png"; sourceTree = "<group>"; };
+		43475E8615BFEF3600F7EA7F /* app-icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-1024.png"; sourceTree = "<group>"; };
+		43475E8915BFEFF600F7EA7F /* app-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-57.png"; sourceTree = "<group>"; };
+		4347E499156C0E2C00E84863 /* MainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
+		4347E49A156C0E2C00E84863 /* MainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
+		4347E49C156D39B700E84863 /* CurrentStatusVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentStatusVC.h; sourceTree = "<group>"; };
+		4347E49D156D39B700E84863 /* CurrentStatusVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentStatusVC.m; sourceTree = "<group>"; };
+		4347E49F156D39F700E84863 /* SevenDayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenDayVC.h; sourceTree = "<group>"; };
+		4347E4A0156D39F700E84863 /* SevenDayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenDayVC.m; sourceTree = "<group>"; };
+		4347E4A2156D4E0C00E84863 /* CurrentStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentStatus.h; sourceTree = "<group>"; };
+		4347E4A3156D4E0C00E84863 /* CurrentStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentStatus.m; sourceTree = "<group>"; };
+		4347E4A5156D525C00E84863 /* WeatherWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherWarning.h; sourceTree = "<group>"; };
+		4347E4A6156D525C00E84863 /* WeatherWarning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherWarning.m; sourceTree = "<group>"; };
+		4375FE751498ED1200F6F989 /* visualhkweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visualhkweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4375FE791498ED1200F6F989 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4375FE7B1498ED1200F6F989 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4375FE7D1498ED1200F6F989 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4375FE811498ED1200F6F989 /* visualhkweather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "visualhkweather-Info.plist"; sourceTree = "<group>"; };
+		4375FE831498ED1200F6F989 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4375FE851498ED1200F6F989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4375FE871498ED1200F6F989 /* visualhkweather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "visualhkweather-Prefix.pch"; sourceTree = "<group>"; };
+		4375FE881498ED1200F6F989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4375FE891498ED1200F6F989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4375FE8C1498ED1200F6F989 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4375FE961498EF5300F6F989 /* visualhkweather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = visualhkweather.entitlements; sourceTree = "<group>"; };
+		4375FE9714990FB600F6F989 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		4375FE9814990FB600F6F989 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		43C14472181EBC1C000DFD66 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADAdMobExtras.h"; sourceTree = "<group>"; };
+		43C14473181EBC1C000DFD66 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADAdNetworkExtras.h"; sourceTree = "<group>"; };
+		43C14474181EBC1C000DFD66 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADAdSize.h"; sourceTree = "<group>"; };
+		43C14475181EBC1C000DFD66 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADBannerView.h"; sourceTree = "<group>"; };
+		43C14476181EBC1C000DFD66 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADBannerViewDelegate.h"; sourceTree = "<group>"; };
+		43C14477181EBC1C000DFD66 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADInterstitial.h"; sourceTree = "<group>"; };
+		43C14478181EBC1C000DFD66 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADInterstitialDelegate.h"; sourceTree = "<group>"; };
+		43C14479181EBC1C000DFD66 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADRequest.h"; sourceTree = "<group>"; };
+		43C1447A181EBC1C000DFD66 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/GADRequestError.h"; sourceTree = "<group>"; };
+		43C1447B181EBC1C000DFD66 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = "../../iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1/libGoogleAdMobAds.a"; sourceTree = "<group>"; };
+		43C1447E181EBD4D000DFD66 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		43C14480181EBD54000DFD66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		43C14482181EBD5D000DFD66 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		43C14484181EBD6A000DFD66 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		43C14486181EBD75000DFD66 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		43C1448918213F69000DFD66 /* app-icon2-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon2-80.png"; path = "../../iphone-projects-res/visualweather/app-icon2-80.png"; sourceTree = "<group>"; };
+		43C1448A18213F69000DFD66 /* app-icon2-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon2-120.png"; path = "../../iphone-projects-res/visualweather/app-icon2-120.png"; sourceTree = "<group>"; };
+		43C1448B18213F69000DFD66 /* app-icon2-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon2-1024.png"; path = "../../iphone-projects-res/visualweather/app-icon2-1024.png"; sourceTree = "<group>"; };
+		43C1448F1821407E000DFD66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../iphone-projects-res/visualweather/Default.png"; sourceTree = "<group>"; };
+		43C1449118214141000DFD66 /* app-icon2-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon2-57.png"; path = "../../iphone-projects-res/visualweather/app-icon2-57.png"; sourceTree = "<group>"; };
+		43C1449218214141000DFD66 /* app-icon2-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon2-114.png"; path = "../../iphone-projects-res/visualweather/app-icon2-114.png"; sourceTree = "<group>"; };
+		43C14495182158A2000DFD66 /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h.png"; path = "../../iphone-projects-res/visualweather/Default-568h.png"; sourceTree = "<group>"; };
+		43C14496182158A2000DFD66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../iphone-projects-res/visualweather/Default-568h@2x.png"; sourceTree = "<group>"; };
+		43FD398C156AAA980068C93A /* ImageHolderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHolderVC.h; sourceTree = "<group>"; };
+		43FD398D156AAA980068C93A /* ImageHolderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHolderVC.m; sourceTree = "<group>"; };
+		43FD398E156AAA980068C93A /* ImageHolderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageHolderVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4375FE721498ED1200F6F989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4375FE7E1498ED1200F6F989 /* CoreGraphics.framework in Frameworks */,
+				43C14487181EBD75000DFD66 /* SystemConfiguration.framework in Frameworks */,
+				43C14485181EBD6A000DFD66 /* MessageUI.framework in Frameworks */,
+				43C14483181EBD5D000DFD66 /* AdSupport.framework in Frameworks */,
+				43C14481181EBD54000DFD66 /* AudioToolbox.framework in Frameworks */,
+				43C1447F181EBD4D000DFD66 /* StoreKit.framework in Frameworks */,
+				43387F6615924F590087093B /* QuartzCore.framework in Frameworks */,
+				4375FE7A1498ED1200F6F989 /* UIKit.framework in Frameworks */,
+				4375FE7C1498ED1200F6F989 /* Foundation.framework in Frameworks */,
+				43C1447C181EBC1C000DFD66 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43475E7D15BFDE0800F7EA7F /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				43475E8915BFEFF600F7EA7F /* app-icon-57.png */,
+				43475E8515BFEF3600F7EA7F /* app-icon-114.png */,
+				43475E8615BFEF3600F7EA7F /* app-icon-1024.png */,
+				43475E8315BFDFD200F7EA7F /* 7days.png */,
+				43475E8115BFDF4500F7EA7F /* news.png */,
+				43475E7F15BFDE5900F7EA7F /* current.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		4375FE6A1498ED1100F6F989 = {
+			isa = PBXGroup;
+			children = (
+				43C1448818213F5A000DFD66 /* Icons */,
+				43C1447D181EBC20000DFD66 /* admob */,
+				4375FE7F1498ED1200F6F989 /* visualhkweather */,
+				4375FE781498ED1200F6F989 /* Frameworks */,
+				4375FE761498ED1200F6F989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4375FE761498ED1200F6F989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4375FE751498ED1200F6F989 /* visualhkweather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4375FE781498ED1200F6F989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43C14486181EBD75000DFD66 /* SystemConfiguration.framework */,
+				43C14484181EBD6A000DFD66 /* MessageUI.framework */,
+				43C14482181EBD5D000DFD66 /* AdSupport.framework */,
+				43C14480181EBD54000DFD66 /* AudioToolbox.framework */,
+				43C1447E181EBD4D000DFD66 /* StoreKit.framework */,
+				43387F6515924F590087093B /* QuartzCore.framework */,
+				4375FE791498ED1200F6F989 /* UIKit.framework */,
+				4375FE7B1498ED1200F6F989 /* Foundation.framework */,
+				4375FE7D1498ED1200F6F989 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4375FE7F1498ED1200F6F989 /* visualhkweather */ = {
+			isa = PBXGroup;
+			children = (
+				43B7A722181591DE0053198A /* _outdated */,
+				43B7A721181591C10053198A /* Helpers */,
+				43B7A720181591940053198A /* Tab-7Day */,
+				43B7A71F181591870053198A /* Tab-Current */,
+				43B7A71E1815917A0053198A /* Main */,
+				43475E7D15BFDE0800F7EA7F /* icons */,
+				4347E499156C0E2C00E84863 /* MainTabViewController.h */,
+				4347E49A156C0E2C00E84863 /* MainTabViewController.m */,
+				4375FE9714990FB600F6F989 /* LandscapeViewController.h */,
+				4375FE9814990FB600F6F989 /* LandscapeViewController.m */,
+				4375FE801498ED1200F6F989 /* Supporting Files */,
+				43FD398C156AAA980068C93A /* ImageHolderVC.h */,
+				43FD398D156AAA980068C93A /* ImageHolderVC.m */,
+				43FD398E156AAA980068C93A /* ImageHolderVC.xib */,
+			);
+			path = visualhkweather;
+			sourceTree = "<group>";
+		};
+		4375FE801498ED1200F6F989 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4375FE811498ED1200F6F989 /* visualhkweather-Info.plist */,
+				4375FE821498ED1200F6F989 /* InfoPlist.strings */,
+				4375FE851498ED1200F6F989 /* main.m */,
+				4375FE871498ED1200F6F989 /* visualhkweather-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43B7A71E1815917A0053198A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4375FE961498EF5300F6F989 /* visualhkweather.entitlements */,
+				4375FE881498ED1200F6F989 /* AppDelegate.h */,
+				4375FE891498ED1200F6F989 /* AppDelegate.m */,
+				4375FE8B1498ED1200F6F989 /* MainStoryboard.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		43B7A71F181591870053198A /* Tab-Current */ = {
+			isa = PBXGroup;
+			children = (
+				4347E49C156D39B700E84863 /* CurrentStatusVC.h */,
+				4347E49D156D39B700E84863 /* CurrentStatusVC.m */,
+			);
+			name = "Tab-Current";
+			sourceTree = "<group>";
+		};
+		43B7A720181591940053198A /* Tab-7Day */ = {
+			isa = PBXGroup;
+			children = (
+				4347E49F156D39F700E84863 /* SevenDayVC.h */,
+				4347E4A0156D39F700E84863 /* SevenDayVC.m */,
+			);
+			name = "Tab-7Day";
+			sourceTree = "<group>";
+		};
+		43B7A721181591C10053198A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				43387F58157D0F9D0087093B /* DayWeather.h */,
+				43387F59157D0F9D0087093B /* DayWeather.m */,
+				4347E4A2156D4E0C00E84863 /* CurrentStatus.h */,
+				4347E4A3156D4E0C00E84863 /* CurrentStatus.m */,
+				4347E4A5156D525C00E84863 /* WeatherWarning.h */,
+				4347E4A6156D525C00E84863 /* WeatherWarning.m */,
+				43387F62158F9F980087093B /* HKOTweet.h */,
+				43387F63158F9F980087093B /* HKOTweet.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		43B7A722181591DE0053198A /* _outdated */ = {
+			isa = PBXGroup;
+			children = (
+				43387F5F1589003C0087093B /* NewsViewController.h */,
+				43387F601589003C0087093B /* NewsViewController.m */,
+				43387F671593A6080087093B /* NewsWebViewController.h */,
+				43387F681593A6080087093B /* NewsWebViewController.m */,
+			);
+			name = _outdated;
+			sourceTree = "<group>";
+		};
+		43C1447D181EBC20000DFD66 /* admob */ = {
+			isa = PBXGroup;
+			children = (
+				43C14472181EBC1C000DFD66 /* GADAdMobExtras.h */,
+				43C14473181EBC1C000DFD66 /* GADAdNetworkExtras.h */,
+				43C14474181EBC1C000DFD66 /* GADAdSize.h */,
+				43C14475181EBC1C000DFD66 /* GADBannerView.h */,
+				43C14476181EBC1C000DFD66 /* GADBannerViewDelegate.h */,
+				43C14477181EBC1C000DFD66 /* GADInterstitial.h */,
+				43C14478181EBC1C000DFD66 /* GADInterstitialDelegate.h */,
+				43C14479181EBC1C000DFD66 /* GADRequest.h */,
+				43C1447A181EBC1C000DFD66 /* GADRequestError.h */,
+				43C1447B181EBC1C000DFD66 /* libGoogleAdMobAds.a */,
+			);
+			name = admob;
+			sourceTree = "<group>";
+		};
+		43C1448818213F5A000DFD66 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				43C14495182158A2000DFD66 /* Default-568h.png */,
+				43C14496182158A2000DFD66 /* Default-568h@2x.png */,
+				43C1449118214141000DFD66 /* app-icon2-57.png */,
+				43C1449218214141000DFD66 /* app-icon2-114.png */,
+				43C1448F1821407E000DFD66 /* Default.png */,
+				43C1448918213F69000DFD66 /* app-icon2-80.png */,
+				43C1448A18213F69000DFD66 /* app-icon2-120.png */,
+				43C1448B18213F69000DFD66 /* app-icon2-1024.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4375FE741498ED1200F6F989 /* visualhkweather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4375FE931498ED1200F6F989 /* Build configuration list for PBXNativeTarget "visualhkweather" */;
+			buildPhases = (
+				4375FE711498ED1200F6F989 /* Sources */,
+				4375FE721498ED1200F6F989 /* Frameworks */,
+				4375FE731498ED1200F6F989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = visualhkweather;
+			productName = visualhkweather;
+			productReference = 4375FE751498ED1200F6F989 /* visualhkweather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4375FE6C1498ED1100F6F989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					4375FE741498ED1200F6F989 = {
+						DevelopmentTeam = 9U7ZZJ868F;
+					};
+				};
+			};
+			buildConfigurationList = 4375FE6F1498ED1100F6F989 /* Build configuration list for PBXProject "visualhkweather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4375FE6A1498ED1100F6F989;
+			productRefGroup = 4375FE761498ED1200F6F989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4375FE741498ED1200F6F989 /* visualhkweather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4375FE731498ED1200F6F989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C14497182158A2000DFD66 /* Default-568h.png in Resources */,
+				43C1449418214141000DFD66 /* app-icon2-114.png in Resources */,
+				4375FE841498ED1200F6F989 /* InfoPlist.strings in Resources */,
+				4375FE8D1498ED1200F6F989 /* MainStoryboard.storyboard in Resources */,
+				43FD3990156AAA980068C93A /* ImageHolderVC.xib in Resources */,
+				43475E8015BFDE5900F7EA7F /* current.png in Resources */,
+				43475E8215BFDF4500F7EA7F /* news.png in Resources */,
+				43475E8415BFDFD200F7EA7F /* 7days.png in Resources */,
+				43C14498182158A2000DFD66 /* Default-568h@2x.png in Resources */,
+				43475E8715BFEF3600F7EA7F /* app-icon-114.png in Resources */,
+				43C1448D18213F69000DFD66 /* app-icon2-120.png in Resources */,
+				43C144901821407E000DFD66 /* Default.png in Resources */,
+				43475E8815BFEF3600F7EA7F /* app-icon-1024.png in Resources */,
+				43C1448C18213F69000DFD66 /* app-icon2-80.png in Resources */,
+				43475E8A15BFEFF600F7EA7F /* app-icon-57.png in Resources */,
+				43C1448E18213F69000DFD66 /* app-icon2-1024.png in Resources */,
+				43C1449318214141000DFD66 /* app-icon2-57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4375FE711498ED1200F6F989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4375FE861498ED1200F6F989 /* main.m in Sources */,
+				4375FE8A1498ED1200F6F989 /* AppDelegate.m in Sources */,
+				4375FE9914990FB600F6F989 /* LandscapeViewController.m in Sources */,
+				43FD398F156AAA980068C93A /* ImageHolderVC.m in Sources */,
+				4347E49B156C0E2C00E84863 /* MainTabViewController.m in Sources */,
+				4347E49E156D39B700E84863 /* CurrentStatusVC.m in Sources */,
+				4347E4A1156D39F700E84863 /* SevenDayVC.m in Sources */,
+				4347E4A4156D4E0C00E84863 /* CurrentStatus.m in Sources */,
+				4347E4A7156D525C00E84863 /* WeatherWarning.m in Sources */,
+				43387F5A157D0F9D0087093B /* DayWeather.m in Sources */,
+				43387F611589003C0087093B /* NewsViewController.m in Sources */,
+				43387F64158F9F980087093B /* HKOTweet.m in Sources */,
+				43387F691593A6080087093B /* NewsWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4375FE821498ED1200F6F989 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4375FE831498ED1200F6F989 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4375FE8B1498ED1200F6F989 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4375FE8C1498ED1200F6F989 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4375FE911498ED1200F6F989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SIU LO";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SIU LO";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1E17EF16-1503-4947-8860-73C4A8BDFA38";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1E17EF16-1503-4947-8860-73C4A8BDFA38";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4375FE921498ED1200F6F989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SIU LO";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SIU LO";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1E17EF16-1503-4947-8860-73C4A8BDFA38";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1E17EF16-1503-4947-8860-73C4A8BDFA38";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4375FE941498ED1200F6F989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "visualhkweather/visualhkweather-Prefix.pch";
+				INFOPLIST_FILE = "visualhkweather/visualhkweather-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/siu/iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4CA4E44D-BA6D-4D00-AF93-E4BD00F35CAA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4375FE951498ED1200F6F989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "visualhkweather/visualhkweather-Prefix.pch";
+				INFOPLIST_FILE = "visualhkweather/visualhkweather-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/siu/iphone-projects-res/GoogleAdMobAdsSdkiOS-6.5.1",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4CA4E44D-BA6D-4D00-AF93-E4BD00F35CAA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4375FE6F1498ED1100F6F989 /* Build configuration list for PBXProject "visualhkweather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4375FE911498ED1200F6F989 /* Debug */,
+				4375FE921498ED1200F6F989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4375FE931498ED1200F6F989 /* Build configuration list for PBXNativeTarget "visualhkweather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4375FE941498ED1200F6F989 /* Debug */,
+				4375FE951498ED1200F6F989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4375FE6C1498ED1100F6F989 /* Project object */;
+}
